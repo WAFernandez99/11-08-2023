@@ -1,0 +1,42 @@
+@import "./generales";
+@import "./variables";
+@import "./footer";
+@import "footer";
+
+
+$color-textos: black;
+$color-fondo-principal: blueviolet;
+$color-fondo-secundario : white;
+
+/*$textos:(
+color-primario: black,
+color-secundario: grey,
+);
+
+$fondos:(
+    color-primario: pink,
+    color-secundario: orange
+)*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $color-fondo-principal;
+}
+footer{
+ background-color: $color-fondo-secundario;
+}
+h1{
+    color: $color-tipografia
+}
+
+h2{
+    color: $color-tipografia;
+}
+ p{
+    color:$color-tipografia;
+    
+ }
+
